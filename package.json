@@ -1,0 +1,26 @@
+{
+  "name": "datastructures",
+  "version": "1.0.0",
+  "description": "Data Structures and Algorithms I",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "cd lib && mocha",
+    "transpile": "babel src -d lib",
+    "watch": "babel src -w -d lib"
+  },
+  "author": "Jeff Dunn",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.0.14",
+    "babel-preset-es2015": "^6.0.14",
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {},
+  "babel": {
+    "presets": ["es2015"]
+  }
+}
