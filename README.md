@@ -37,7 +37,9 @@ This function returns the most common letter(s) for an array of words. It utiliz
 * split
 
 
-Copyright &copy; 2015 Jeff Dunn
+
+
+Copyright &copy; 2015 Jeff Dunn.
 All rights reserved.
 
 This software is licensed under the ISC license.
